@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/devchallenges.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@600;700;800&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js"></script>
+    <title>Eddie Hmepage</title>
+</head>
+
+<body class="container">
+
+    <nav class="navigations">
+        <div class="logo">eddie</div>
+
+        <ul class="navigation">
+            <li class="navigation__item">
+                <a href="#home" class="navigation__link">Home</a>
+            </li>
+            <li class="navigation__item">
+                <a href="#services" class="navigation__link">Services</a>
+            </li>
+            <li class="navigation__item">
+                <a href="#works" class="navigation__link">Our Works</a>
+            </li>
+            <li class="navigation__item">
+                <a href="#clients" class="navigation__link">Clients</a>
+            </li>
+            <li class="navigation__item">
+                <a href="#contacts" class="navigation__link">Contact</a>
+            </li>
+
+        </ul>
+        <button class="navigation__icon">
+            <svg class="icon icon-menu">
+                <use xlink:href="/icomoon/sprite.svg#icon-menu"></use>
+            </svg>
+        </button>
+    </nav>
+    <nav class="mobile" id="mobile" style="display: none;">
+        <button class="mobile__icon">
+            <svg class="icon icon-menu">
+                <use xlink:href="/icomoon/sprite.svg#icon-cross"></use>
+            </svg>
+        </button>
+        <ul class="navigation">
+            <li class="navigation__item">
+                <a href="#home" class="navigation__link">Home</a>
+            </li>
+            <li class="navigation__item">
+                <a href="#services" class="navigation__link">Services</a>
+            </li>
+            <li class="navigation__item">
+                <a href="#works" class="navigation__link">Our Works</a>
+            </li>
+            <li class="navigation__item">
+                <a href="#clients" class="navigation__link">Clients</a>
+            </li>
+            <li class="navigation__item">
+                <a href="#contacts" class="navigation__link">Contact</a>
+            </li>
+
+        </ul>
+
+    </nav>
+    <header class="home" id="home">
+        <div class="hero__firstIntro">
+            <p>Unhappy with your website?</p>
+            <h1 class="heading-1">We create beautiful and fast web services</h1>
+        </div>
+        <figure class="hero__figure">
+            <img src="images/heroImage.jpg" alt="" class="hero__figure--image">
+        </figure>
+        <div class="hero__secondIntro">
+            <h1 class="heading-1">Story, emotion and purpose</h1>
+            <p>We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.</p>
+            <div class="hero__contact">
+                <p>Want us to contact you?</p>
+                <input type="text" class="hero__input" placeholder="Email">
+                <button class="hero__button">Join</button>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="services" id="services">
+        <h2 class="heading-2">
+            We offer high demand service
+        </h2>
+        <div class="service">
+            <span class="service__icon service__icon--1">
+                <svg class="icon icon-pencil, write, blog, save, note">
+                    <use xlink:href="/icomoon/sprite.svg#icon-pencil"></use>
+                </svg>
+            </span>
+            <h3 class="heading-3">UI/UX Design</h3>
+            <p class="service__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.
+            </p>
+            <button class="service__button">Get Started</button>
+        </div>
+        <div class="service">
+            <span class="service__icon service__icon--2">
+                <svg class="icon icon-code">
+                    <use xlink:href="/icomoon/sprite.svg#icon-code"></use>
+                </svg>
+            </span>
+            <h3 class="heading-3">Front End</h3>
+            <p class="service__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.
+            </p>
+            <button class="service__button">Get Started</button>
+        </div>
+        </div>
+        <div class="service">
+            <span class="service__icon service__icon--3">
+            <svg class="icon icon-list">
+                <use xlink:href="/icomoon/sprite.svg#icon-list2"></use>
+            </svg>
+        </span>
+            <h3 class="heading-3">Back End</h3>
+            <p class="service__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.
+            </p>
+            <button class="service__button">Get Started</button>
+        </div>
+        </div>
+    </section>
+    <section class="works" id="works">
+        <h2 class="heading-2">
+            Good design means good business
+        </h2>
+        <div class="work work__1">
+            <figure class="work__1--figure">
+                <img src="images/smarthome.jpg" alt="smarthome" class="work__1--image">
+            </figure>
+            <p>Full stack application</p>
+            <h4>Smart home dashboard</h4>
+        </div>
+        <div class="work work__2 ">
+            <figure class="work__2--figure">
+                <img src="images/onboard.png" alt="onboard" class="work__2--image">
+            </figure>
+            <p>UI/UX Design</p>
+            <h4>Onboard application</h4>
+        </div>
+        <div class="work work__3 ">
+            <figure class="work__3--figure">
+                <img src="images/booking.png" alt="booking" class="work__3--image">
+            </figure>
+            <p>mobile application</p>
+            <h4>Booking system</h4>
+        </div>
+        <div class="work work__4 ">
+            <figure class="work__4--figure">
+                <img src="images/juice-product.png" alt="juiceProduct" class="work__4--image">
+            </figure>
+            <p>Front End application</p>
+            <h4>Juice product homepage</h4>
+        </div>
+    </section>
+    <section class="teams" id="works">
+        <div class="team__about">
+            <h5>Meet the team</h5>
+            <h2 class="heading-2">We are chilled and laidback team</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="team__images">
+            <figure class="team__figure team--1">
+                <img src="images/person1.png" alt="person1" class="team__image">
+            </figure>
+            <figure class="team__figure team--2">
+                <img src="images/person2.png" alt="person2" class="team__image">
+            </figure>
+            <figure class="team__figure team--3">
+                <img src="images/person3.png" alt="person3" class="team__image">
+            </figure>
+        </div>
+    </section>
+    <section class="clients " id="clients">
+        <p class="client__quote">“Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.” </p>
+        <div class="client__profile">
+            <figure class="client__image">
+                <img src="images/person4.png" alt="person4">
+            </figure>
+            <div class="client__detail">
+                <h4 class="client__name">Carlos Tran</h4>
+                <p class="client__position">The Decorate Gatsby</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="contacts">
+        <nav class="footer__navigation">
+            <ul class="footer__navigation__items">
+                <li class="footer__navigation__item">
+                    <a href="#home" class="footer__navigation__link">Home</a>
+                </li>
+                <li class="footer__navigation__item">
+                    <a href="#services" class="footer__navigation__link">Services</a>
+                </li>
+                <li class="footer__navigation__item">
+                    <a href="#works" class="footer__navigation__link">Our Works</a>
+                </li>
+                <li class="footer__navigation__item">
+                    <a href="#clients" class="footer__navigation__link">Clients</a>
+                </li>
+                <li class="footer__navigation__item">
+                    <a href="#contact" class="footer__navigation__link">Contact</a>
+                </li>
+
+            </ul>
+        </nav>
+        <div class="footer__social">
+            <div class="footer__logo">eddie</div>
+            <div class="footer__socials">
+                <img src="/img/instagram.svg" alt="">
+                <img src="/img/linkedin.svg" alt="">
+                <img src="/img/twitter.svg" alt="">
+            </div>
+        </div>
+        <div class="hero__contact">
+            <p>Want us to contact you?</p>
+            <input type="text" class="hero__input" placeholder="Email">
+            <button class="hero__button">Join</button>
+        </div>
+        <div class="footer__copy">
+            <p class="">Lauryruz@DevChallenges.io</p>
+        </div>
+
+    </footer>
+    
+</body>
+
+</html>
